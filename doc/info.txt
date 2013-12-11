@@ -1,0 +1,50 @@
+build:
+
+export CCPREFIX=/home/pi/pi-plant/raspberry/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-
+
+export CROSS_COMPILE=${CCPREFIX}
+
+export ARCH=arm
+
+export PATH=$PATH:/home/pi/pi-plant/raspberry/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin
+
+make modules_install INSTALL_MOD_PATH=/home/pi/pi-plant/raspberry/modules/ -j3
+
+
+build with patch for mcp2515
+
+
+sudo modprobe spi-bcm2708
+sudo modprobe can
+sudo modprobe can-dev
+sudo modprobe can-raw
+sudo modprobe can-bcm
+sudo modprobe mcp2515
+
+
+sudo ip link set can0 type can bitrate 250000 loopback off
+sudo ifconfig can0 up
+
+sudo ifconfig can0 txqueuelen 10000
+
+
+cd tmp/can-utils/usr/local/bin
+
+
+./candump any,0:0,#FFFFFFFF
+
+./cansend can0 444#deadbe99
+
+ip -details -statistics link show can0
+
+sudo ip link set can0 type can restart
+dmesg | egrep -i "spi|can|mcp"
+
+cat /proc/interrupts
+
+socket can info:
+https://www.kernel.org/doc/Documentation/networking/can.txt
+
+
+can timings: CNF 1..3
+CNF: 0x05 0xa3 0x01
