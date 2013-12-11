@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="cdt.managedbuild.config.gnu.cross.exe.debug.551830320">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.cross.exe.debug.551830320" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.cross.exe.debug.551830320" name="Debug" parent="cdt.managedbuild.config.gnu.cross.exe.debug">
+					<folderInfo id="cdt.managedbuild.config.gnu.cross.exe.debug.551830320." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.cross.exe.debug.646435169" name="Cross GCC" superClass="cdt.managedbuild.toolchain.gnu.cross.exe.debug">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.targetPlatform.gnu.cross.1587955992" isAbstract="false" osList="all" superClass="cdt.managedbuild.targetPlatform.gnu.cross"/>
+							<builder buildPath="${workspace_loc:/PiPlantCore}/Debug" id="cdt.managedbuild.builder.gnu.cross.827235483" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.builder.gnu.cross"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.c.compiler.813292571" name="Cross GCC Compiler" superClass="cdt.managedbuild.tool.gnu.cross.c.compiler">
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.option.optimization.level.322069370" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.575453463" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.include.paths.3573752" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="/usr/include/mysql"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.537855340" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.compiler.469051870" name="Cross G++ Compiler" superClass="cdt.managedbuild.tool.gnu.cross.cpp.compiler">
+								<option id="gnu.cpp.compiler.option.optimization.level.1586581190" name="Optimization Level" superClass="gnu.cpp.compiler.option.optimization.level" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.639127705" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cross.c.linker.754793696" name="Cross GCC Linker" superClass="cdt.managedbuild.tool.gnu.cross.c.linker">
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.1417585457" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.linker.1464912863" name="Cross G++ Linker" superClass="cdt.managedbuild.tool.gnu.cross.cpp.linker"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.archiver.64200718" name="Cross GCC Archiver" superClass="cdt.managedbuild.tool.gnu.cross.archiver"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.assembler.1807123482" name="Cross GCC Assembler" superClass="cdt.managedbuild.tool.gnu.cross.assembler">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.36943856" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="test|ressource|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="ressource"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="test"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="cdt.managedbuild.config.gnu.cross.exe.release.1164580652">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.cross.exe.release.1164580652" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.cross.exe.release.1164580652" name="Release" parent="cdt.managedbuild.config.gnu.cross.exe.release">
+					<folderInfo id="cdt.managedbuild.config.gnu.cross.exe.release.1164580652." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.cross.exe.release.1456321264" name="Cross GCC" superClass="cdt.managedbuild.toolchain.gnu.cross.exe.release">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.targetPlatform.gnu.cross.493745320" isAbstract="false" osList="all" superClass="cdt.managedbuild.targetPlatform.gnu.cross"/>
+							<builder buildPath="${workspace_loc:/PiPlantCore}/Release" id="cdt.managedbuild.builder.gnu.cross.820402438" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.builder.gnu.cross"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.c.compiler.1013986428" name="Cross GCC Compiler" superClass="cdt.managedbuild.tool.gnu.cross.c.compiler">
+								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.option.optimization.level.1047489991" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.1673740329" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.2134127355" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.compiler.715039052" name="Cross G++ Compiler" superClass="cdt.managedbuild.tool.gnu.cross.cpp.compiler">
+								<option id="gnu.cpp.compiler.option.optimization.level.2091742455" name="Optimization Level" superClass="gnu.cpp.compiler.option.optimization.level" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.376385496" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cross.c.linker.496345570" name="Cross GCC Linker" superClass="cdt.managedbuild.tool.gnu.cross.c.linker">
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.999907177" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.linker.600459103" name="Cross G++ Linker" superClass="cdt.managedbuild.tool.gnu.cross.cpp.linker"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.archiver.584910540" name="Cross GCC Archiver" superClass="cdt.managedbuild.tool.gnu.cross.archiver"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.assembler.2103368885" name="Cross GCC Assembler" superClass="cdt.managedbuild.tool.gnu.cross.assembler">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.75125455" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="test|ressource|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="ressource"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="test"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="PiPlantCore.cdt.managedbuild.target.gnu.cross.exe.1703172829" name="Executable" projectType="cdt.managedbuild.target.gnu.cross.exe"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cross.exe.release.1164580652;cdt.managedbuild.config.gnu.cross.exe.release.1164580652.;cdt.managedbuild.tool.gnu.cross.c.compiler.1013986428;cdt.managedbuild.tool.gnu.c.compiler.input.2134127355">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cross.exe.debug.551830320;cdt.managedbuild.config.gnu.cross.exe.debug.551830320.;cdt.managedbuild.tool.gnu.cross.c.compiler.813292571;cdt.managedbuild.tool.gnu.c.compiler.input.537855340">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope"/>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+</cproject>
