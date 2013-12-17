@@ -1,0 +1,17 @@
+ http://wiki.ubuntuusers.de/lighttpd
+ 
+ Server starten:
+ 
+sudo /etc/init.d/lighttpd restart
+ 
+ lighty-enable-mod userdir ?????
+ 
+ config-files:	/etc/lighttpd
+ docroot:		/var/www
+ log-files:		/var/log/lighttpd
+ 
+    CGI scripts are looked for in /usr/lib/cgi-bin, which is where Ubuntu packages will place their scripts. You can enable cgi module by using command "lighty-enable-mod cgi".
+ 	The frequency of rotation can be easily changed by editing /etc/logrotate.d/lighttpd.
+    The default directory index is index.html, meaning that requests for a directory /foo/bar/ will give the contents of the file /var/www/foo/bar/index.html if it exists (assuming that /var/www is your DocumentRoot).
+    You can enable user directories by using command "lighty-enable-mod userdir"
+ 
